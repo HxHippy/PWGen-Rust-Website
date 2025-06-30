@@ -36,11 +36,11 @@ export default function Download() {
                     <p>Ubuntu, Debian, Fedora, Arch</p>
                     <div className="download-buttons">
                       <a href="https://snapcraft.io/pwgen-rust" className="download-button">
-                        🎉 Install from Snap Store
+                        ⏳ Snap Store (Pending Approval)
                       </a>
-                      <div className="code-block-title">One-Command Install</div>
-                      <pre><code>sudo snap install pwgen-rust</code></pre>
-                      <small>✅ Approved and available in Snap Store!</small>
+                      <div className="code-block-title">Coming Soon</div>
+                      <pre><code># sudo snap install pwgen-rust</code></pre>
+                      <small>⏳ Awaiting Snap Store approval</small>
                     </div>
                   </div>
                 </div>
@@ -103,8 +103,8 @@ export default function Download() {
                 <pre><code># All platforms - direct download<br/>https://github.com/HxHippy/PWGen/releases/latest</code></pre>
 
                 <h4>🚀 Alternative Installation</h4>
-                <div className="code-block-title">Snap Store (Recommended)</div>
-                <pre><code>sudo snap install pwgen-rust</code></pre>
+                <div className="code-block-title">Snap Store (Pending Approval)</div>
+                <pre><code># sudo snap install pwgen-rust</code></pre>
                 
                 <div className="code-block-title">Manual Snap Install</div>
                 <pre><code>wget https://github.com/HxHippy/PWGen/releases/latest/download/pwgen-rust_1.2.0_amd64.snap<br/>sudo snap install --dangerous pwgen-rust_1.2.0_amd64.snap</code></pre>

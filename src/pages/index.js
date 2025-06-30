@@ -34,8 +34,8 @@ function getInstallCommand(os) {
     default:
       return {
         package: 'snap',
-        command: '# Install from Snap Store (Approved!)\nsudo snap install pwgen-rust',
-        alt: 'Available now in the Snap Store! ✅'
+        command: '# Install from Snap Store (Pending Approval)\n# sudo snap install pwgen-rust',
+        alt: 'Awaiting Snap Store approval ⏳'
       };
   }
 }

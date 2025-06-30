@@ -59,9 +59,9 @@ Get up and running with PwGen in minutes:
 
 Choose your platform on our [download page](/download) or use our quick install scripts:
 
-```bash title="Linux (Snap Store - Approved!)"
-# One-command install from Snap Store
-sudo snap install pwgen-rust
+```bash title="Linux (Snap Store - Pending Approval)"
+# One-command install from Snap Store (coming soon)
+# sudo snap install pwgen-rust
 ```
 
 ```bash title="macOS"

@@ -10,7 +10,7 @@ Get PwGen-rust installed on your system quickly and easily. Multiple installatio
 
 ### Linux
 
-#### Snap Store (Approved!)
+#### Snap Store (Pending Approval)
 ```bash
 # Recommended: Install from Snap Store
 sudo snap install pwgen-rust
@@ -54,8 +54,8 @@ cargo install --git https://github.com/HxHippy/PWGen pwgen-cli pwgen-gui
 ### Platform-Specific Package Managers
 
 ```bash
-# Snap (Linux) - Official
-sudo snap install pwgen-rust
+# Snap (Linux) - Pending Approval
+# sudo snap install pwgen-rust
 
 # Homebrew (macOS/Linux) - Coming Soon
 # brew install pwgen-rust
@@ -70,7 +70,7 @@ Visit our [download page](/download) or [GitHub Releases](https://github.com/HxH
 
 - **Linux**: 
   - `.tar.gz` (universal binary)
-  - `.snap` (Snap Store)
+  - `.snap` (Snap Store - pending approval)
   - `.AppImage` (coming soon)
 - **macOS**: 
   - `.dmg` (disk image)
