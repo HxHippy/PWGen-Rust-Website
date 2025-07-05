@@ -4,15 +4,15 @@ import Layout from '@theme/Layout';
 export default function About() {
   return (
     <Layout
-      title="About the Team"
-      description="Meet the team behind PwGen-rust - security experts and innovators building the future of password management">
+      title="About PWGen-Rust"
+      description="Meet the creator of PWGen-Rust - from learning Rust to building a comprehensive password manager in 8 months">
       <main>
         <div className="container margin-vert--lg">
           <div className="row">
             <div className="col col--12">
-              <h1>About the Team</h1>
+              <h1>About PWGen-Rust</h1>
               <p className="hero__subtitle">
-                Meet the security experts and innovators building the future of password management
+                The story of how a passion for learning Rust became a comprehensive password management solution
               </p>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default function About() {
               <div className="text--center">
                 <img 
                   src="/img/hxhippy.jpeg" 
-                  alt="Brian Gagne (HxHippy)"
+                  alt="Brian Gagne"
                   style={{
                     borderRadius: '50%',
                     width: '200px',
@@ -35,21 +35,57 @@ export default function About() {
               </div>
             </div>
             <div className="col col--9">
-              <h2>Brian Gagne (HxHippy)</h2>
+              <h2>Brian Gagne</h2>
               <h3 style={{color: 'var(--ifm-color-primary)', fontWeight: 'normal'}}>
-                Visionary CTO & CIO | AI & Cybersecurity Strategist
+                AI Specialist & Cybersecurity Enthusiast | Co-Founder of Kief Studio
               </h3>
-              <p><strong>Author of "The Crossroads of AI Integration"</strong></p>
-              <p>
-                Brian is a visionary technology leader shaping secure AI adoption and resilient cyber defenses. 
-                As CTO/COO at Kief Studio and CIO at TRaViS, he brings decades of experience in cybersecurity, 
-                artificial intelligence, and enterprise technology solutions.
+              <p style={{fontSize: '1.1em', fontStyle: 'italic', color: 'var(--ifm-color-primary)'}}>
+                "From zero Rust knowledge to PWGen-Rust in 8 months"
               </p>
-              <p>
-                His expertise spans memory-safe programming languages, cryptographic implementations, and 
-                zero-trust security architectures. Brian's leadership in developing PwGen-rust reflects his 
-                commitment to building tools that provide enterprise-grade security for everyone.
-              </p>
+              
+              <div className="margin-bottom--md">
+                <h4>🚀 The Journey</h4>
+                <p>
+                  Brian's journey with PWGen-Rust began on November 1st, 2024, when he decided to learn Rust. 
+                  Just 35 days later, on December 6th, 2024, he made his first commit to what would inspire
+                  a comprehensive password management solution. This rapid progression from beginner to 
+                  building production-ready software showcases the power of focused learning and practical application.
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m going to learn <a href="https://twitter.com/rustlang?ref_src=twsrc%5Etfw">@rustlang</a></p>&mdash; HxHippy (@HxHippy) <a href="https://twitter.com/HxHippy/status/1852278656472613014?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </p>
+              </div>
+
+              <div className="margin-bottom--md">
+                <h4>💡 The Problem & Solution</h4>
+                <p>
+                  PWGen-Rust was born from a real-world frustration: the complexity of maintaining proper password 
+                  logic across different framework guidelines. Brian envisioned a future-ready application that 
+                  serves everyone - from enterprises needing flexible database configurations, to security-conscious 
+                  users wanting external hardware storage, to everyday users seeking modern security without complexity.
+                </p>
+              </div>
+
+              <div className="margin-bottom--md">
+                <h4>🛠️ Professional Background</h4>
+                <p>
+                  With expertise spanning AI development (since 2016), Python, TypeScript, ERP Systems, and Cloud 
+                  infrastructure, Brian brings a unique perspective to security challenges. As a Cisco Certified 
+                  Ethical Hacker (CCEH), he combines formal credentials with real-world experience managing servers 
+                  and cloud infrastructure.
+                </p>
+                <p>
+                  Brian co-founded <strong>Kief Studio</strong> with his wife, focusing on AI integration and 
+                  technology consulting. His approach to cybersecurity is rooted in continuous learning - 
+                  embracing the role of "knowledge sponge" and believing that there's always something new to 
+                  discover, especially when surrounded by experts who push the boundaries of what's possible.
+                </p>
+              </div>
+
+              <div className="margin-bottom--md">
+                <p style={{fontSize: '0.9em', color: 'var(--ifm-color-secondary)'}}>
+                  <em>Friends and family know him as "Hippy" (from his gaming handle HxHippy), but professionally, 
+                  he goes by Brian.</em>
+                </p>
+              </div>
               
               <div className="margin-top--md">
                 <h4>Connect with Brian:</h4>
@@ -80,8 +116,8 @@ export default function About() {
           {/* Organizations */}
           <div className="row">
             <div className="col col--12">
-              <h2>Powered By</h2>
-              <p>PwGen-rust is brought to you by leading organizations in AI and cybersecurity:</p>
+              <h2>The Ecosystem</h2>
+              <p>PWGen-Rust exists within a broader ecosystem of AI and cybersecurity innovation:</p>
             </div>
           </div>
 
@@ -103,8 +139,8 @@ export default function About() {
                   <h3>Kief Studio</h3>
                   <p><strong>AI Integration & Technology Consulting</strong></p>
                   <p>
-                    Kief Studio specializes in AI integration and technology consulting, helping organizations 
-                    navigate the complex landscape of artificial intelligence adoption while maintaining 
+                    Co-founded by Brian and his wife, Kief Studio specializes in AI integration and technology consulting, 
+                    helping organizations navigate the complex landscape of artificial intelligence adoption while maintaining 
                     security and compliance.
                   </p>
                   <div className="text--center margin-top--md">
@@ -136,7 +172,7 @@ export default function About() {
                   <p>
                     TRaViS provides AI-powered External Attack Surface Management (EASM) without asset caps, 
                     offering comprehensive threat intelligence and vulnerability identification for modern 
-                    cybersecurity needs.
+                    cybersecurity needs. For advanced cybersecurity expertise, connect with TRaViS.
                   </p>
                   <div className="text--center margin-top--md">
                     <a href="https://travisasm.com" target="_blank" rel="noopener noreferrer" 
@@ -163,7 +199,7 @@ export default function About() {
                     </h3>
                     <p className="hero__subtitle">
                       We believe that enterprise-grade security shouldn't be reserved for large corporations. 
-                      PwGen-rust represents our commitment to democratizing cybersecurity tools, making 
+                      PWGen-Rust represents our commitment to democratizing cybersecurity tools, making 
                       military-grade encryption and memory-safe password management accessible to individuals, 
                       small businesses, and enterprises alike.
                     </p>

@@ -347,6 +347,32 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Fix footer link colors in dark mode */
+[data-theme='dark'] .footer__link-item {
+  color: #e4e4e7 !important;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] .footer__title {
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #a1a1aa !important;
+}
+
+/* Ensure footer links are readable in both themes */
+.footer__link-item {
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  text-decoration: none;
+}
+
 /* Button hover improvements for both themes */
 .button {
   transition: all 0.2s ease;
